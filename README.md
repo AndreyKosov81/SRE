@@ -10,4 +10,4 @@ SRE знают что происходит в системе и делятся �
 самовостанавливающейся после сбоя системы.
 
 # Диаграмма
-<img src="https://github.com/AndreyKosov81/SRE/blob/main/web_service.png" height="105"/></h1>
+<img src="https://github.com/AndreyKosov81/SRE/blob/main/web_service.png" height="1005"/></h1>
