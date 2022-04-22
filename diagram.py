@@ -4,9 +4,5 @@
 
 from diagrams  import Diagram
 from diagrams.aws.compute import EC2
-from diagrams.aws.database import RDS
-from diagrams.aws.network import ELB
-
-with Diagram ("Web service", show=False):
-    ELB ("lb" ) >> EC2("web") >> RDS ("userdb") 
-
+with Diagram (" SRE ", show=False ):
+ EC2("Производственные операции") >> EC2("Начало производства") >> EC2("Тестирование") >> EC2("Разработка")
